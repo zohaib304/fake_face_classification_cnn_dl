@@ -6,13 +6,13 @@ from model.cnn import CNN
 
 def run():
     """ Build model, loads data, trains"""
-    mymodel = CNN(CFG)
+    model = CNN(CFG)
     # mymodel.load_data()
-    mymodel.build()
-    mymodel.train()
-    mymodel.evaluate()
-    mymodel.predicting()
-    mymodel.saving()
+    model.build()
+    model.train()
+    model.evaluate()
+    model.predicting()
+    model.saving()
 
 
 if __name__ == '__main__':
